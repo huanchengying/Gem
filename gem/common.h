@@ -4,6 +4,7 @@
 #include <limits.h>
 #include <algorithm>
 #include <sys/mman.h>
+#include <cstdint>
 
 namespace gem
 {
