@@ -1,0 +1,2732 @@
+The system is: Linux - 3.19.0-25-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2290981143/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2290981143.dir/build.make CMakeFiles/cmTryCompileExec2290981143.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2290981143.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2290981143.dir/testCCompiler.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2290981143
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2290981143.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2290981143.dir/testCCompiler.c.o  -o cmTryCompileExec2290981143 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3318133191/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3318133191.dir/build.make CMakeFiles/cmTryCompileExec3318133191.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3318133191
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3318133191.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3318133191 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3318133191' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3318133191 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3318133191/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3318133191.dir/build.make CMakeFiles/cmTryCompileExec3318133191.dir/build]
+  ignore line: [make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3318133191]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3318133191.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3318133191 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3318133191' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3318133191 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3318133191] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3318133191.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec673128197/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec673128197.dir/build.make CMakeFiles/cmTryCompileExec673128197.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec673128197.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec673128197.dir/testCXXCompiler.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec673128197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec673128197.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec673128197.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec673128197 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3420441730/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3420441730.dir/build.make CMakeFiles/cmTryCompileExec3420441730.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3420441730
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3420441730.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3420441730 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3420441730' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3420441730 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3420441730/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3420441730.dir/build.make CMakeFiles/cmTryCompileExec3420441730.dir/build]
+  ignore line: [make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3420441730]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3420441730.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3420441730 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3420441730' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3420441730 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3420441730] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3420441730.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec728614579/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec728614579.dir/build.make CMakeFiles/cmTryCompileExec728614579.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec728614579.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec728614579.dir/CheckIncludeFiles.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec728614579
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec728614579.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec728614579.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec728614579 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1534854025/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1534854025.dir/build.make CMakeFiles/cmTryCompileExec1534854025.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1534854025.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1534854025.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1534854025
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1534854025.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1534854025.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1534854025 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function numa_available exists in the /usr/lib/x86_64-linux-gnu/libnuma.so passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2188368889/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2188368889.dir/build.make CMakeFiles/cmTryCompileExec2188368889.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2188368889.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=numa_available   -o CMakeFiles/cmTryCompileExec2188368889.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2188368889
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2188368889.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=numa_available    CMakeFiles/cmTryCompileExec2188368889.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2188368889 -rdynamic -lnuma 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function numa_allocate_nodemask exists in the /usr/lib/x86_64-linux-gnu/libnuma.so passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec265281981/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec265281981.dir/build.make CMakeFiles/cmTryCompileExec265281981.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec265281981.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=numa_allocate_nodemask   -o CMakeFiles/cmTryCompileExec265281981.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec265281981
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec265281981.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=numa_allocate_nodemask    CMakeFiles/cmTryCompileExec265281981.dir/CheckFunctionExists.c.o  -o cmTryCompileExec265281981 -rdynamic -lnuma 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_HUGEPAGES succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3542617242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3542617242.dir/build.make CMakeFiles/cmTryCompileExec3542617242.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3542617242.dir/src.c.o
+/usr/bin/cc   -g -DHAVE_HUGEPAGES   -o CMakeFiles/cmTryCompileExec3542617242.dir/src.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3542617242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3542617242.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DHAVE_HUGEPAGES    CMakeFiles/cmTryCompileExec3542617242.dir/src.c.o  -o cmTryCompileExec3542617242 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+#ifdef __linux__
+#include <linux/mman.h>
+#endif
+#include <sys/mman.h>
+
+int main(int c, char** argv) {
+  void *ptr = mmap(0, 2*1024*1024, PROT_READ|PROT_WRITE, MAP_HUGETLB, -1, 0);
+
+  return ptr != MAP_FAILED;
+}
+
+Performing C++ SOURCE FILE Test CXX11_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec920786921/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec920786921.dir/build.make CMakeFiles/cmTryCompileExec920786921.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec920786921.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -DCXX11_FLAG_DETECTED   -std=c++11 -o CMakeFiles/cmTryCompileExec920786921.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec920786921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec920786921.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -DCXX11_FLAG_DETECTED    CMakeFiles/cmTryCompileExec920786921.dir/src.cxx.o  -o cmTryCompileExec920786921 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAVE_CXX11_UNIFORM_INT_DISTRIBUTION succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec914138622/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec914138622.dir/build.make CMakeFiles/cmTryCompileExec914138622.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec914138622.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_UNIFORM_INT_DISTRIBUTION -std=c++11   -o CMakeFiles/cmTryCompileExec914138622.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec914138622
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec914138622.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_UNIFORM_INT_DISTRIBUTION -std=c++11    CMakeFiles/cmTryCompileExec914138622.dir/src.cxx.o  -o cmTryCompileExec914138622 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <random>
+int main(){
+  std::mt19937 gen;
+  std::uniform_int_distribution<int> r(0, 6);
+  return r(gen);
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_UNIFORM_REAL_DISTRIBUTION succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3842380106/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3842380106.dir/build.make CMakeFiles/cmTryCompileExec3842380106.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3842380106.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_UNIFORM_REAL_DISTRIBUTION -std=c++11   -o CMakeFiles/cmTryCompileExec3842380106.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3842380106
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3842380106.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_UNIFORM_REAL_DISTRIBUTION -std=c++11    CMakeFiles/cmTryCompileExec3842380106.dir/src.cxx.o  -o cmTryCompileExec3842380106 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <random>
+int main(){
+  std::mt19937 gen;
+  std::uniform_real_distribution<float> r(0, 1);
+  return r(gen) < 0.5 ? 0 : 1;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CHRONO succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec23044638/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec23044638.dir/build.make CMakeFiles/cmTryCompileExec23044638.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec23044638.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_CHRONO -std=c++11   -o CMakeFiles/cmTryCompileExec23044638.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec23044638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec23044638.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_CHRONO -std=c++11    CMakeFiles/cmTryCompileExec23044638.dir/src.cxx.o  -o cmTryCompileExec23044638 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <chrono>
+int main(){
+  typedef  std::chrono::steady_clock Clock;
+  std::chrono::time_point<Clock> start, stop;
+  start = Clock::now();
+  stop = Clock::now();
+  unsigned long res = 
+     std::chrono::duration_cast<std::chrono::milliseconds>(stop-start).count();
+  return res < 1000 ? 0 : 1;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_ALIGNOF succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2357821499/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2357821499.dir/build.make CMakeFiles/cmTryCompileExec2357821499.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2357821499.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_ALIGNOF -std=c++11   -o CMakeFiles/cmTryCompileExec2357821499.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2357821499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2357821499.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -DHAVE_CXX11_ALIGNOF -std=c++11    CMakeFiles/cmTryCompileExec2357821499.dir/src.cxx.o  -o cmTryCompileExec2357821499 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(){
+  return alignof(int) != 0;
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec141492785/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec141492785.dir/build.make CMakeFiles/cmTryCompileExec141492785.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec141492785.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec141492785.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec141492785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec141492785.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec141492785.dir/CheckIncludeFile.c.o  -o cmTryCompileExec141492785 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec723430478/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec723430478.dir/build.make CMakeFiles/cmTryCompileExec723430478.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec723430478.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec723430478.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec723430478
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec723430478.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec723430478.dir/CheckIncludeFile.c.o  -o cmTryCompileExec723430478 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2576411171/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2576411171.dir/build.make CMakeFiles/cmTryCompileExec2576411171.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2576411171.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2576411171.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2576411171
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2576411171.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2576411171.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2576411171 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec713857140/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec713857140.dir/build.make CMakeFiles/cmTryCompileExec713857140.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec713857140.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec713857140.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec713857140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec713857140.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec713857140.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec713857140 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files endian.h exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1414524494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1414524494.dir/build.make CMakeFiles/cmTryCompileExec1414524494.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1414524494.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1414524494.dir/CheckIncludeFiles.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1414524494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1414524494.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1414524494.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1414524494 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the le64toh exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2166415704/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166415704.dir/build.make CMakeFiles/cmTryCompileExec2166415704.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2166415704.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2166415704.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2166415704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166415704.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2166415704.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2166415704 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <endian.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef le64toh
+  return ((int*)(&le64toh))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the le32toh exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4111695993/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4111695993.dir/build.make CMakeFiles/cmTryCompileExec4111695993.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4111695993.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4111695993.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4111695993
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4111695993.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4111695993.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4111695993 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <endian.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef le32toh
+  return ((int*)(&le32toh))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file argz.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec470163538/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec470163538.dir/build.make CMakeFiles/cmTryCompileExec470163538.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec470163538.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec470163538.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec470163538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec470163538.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec470163538.dir/CheckIncludeFile.c.o  -o cmTryCompileExec470163538 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3253334398/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3253334398.dir/build.make CMakeFiles/cmTryCompileExec3253334398.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3253334398.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3253334398.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3253334398
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3253334398.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3253334398.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3253334398 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2955964964/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2955964964.dir/build.make CMakeFiles/cmTryCompileExec2955964964.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2955964964.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2955964964.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2955964964
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2955964964.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2955964964.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2955964964 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec439887354/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec439887354.dir/build.make CMakeFiles/cmTryCompileExec439887354.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec439887354.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec439887354.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec439887354
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec439887354.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec439887354.dir/CheckIncludeFile.c.o  -o cmTryCompileExec439887354 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2919697144/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2919697144.dir/build.make CMakeFiles/cmTryCompileExec2919697144.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2919697144.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2919697144.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2919697144
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2919697144.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2919697144.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2919697144 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec664341537/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec664341537.dir/build.make CMakeFiles/cmTryCompileExec664341537.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec664341537.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec664341537.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec664341537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec664341537.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec664341537.dir/CheckIncludeFile.c.o  -o cmTryCompileExec664341537 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4085496524/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4085496524.dir/build.make CMakeFiles/cmTryCompileExec4085496524.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4085496524.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4085496524.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4085496524
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4085496524.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4085496524.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4085496524 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3819147052/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3819147052.dir/build.make CMakeFiles/cmTryCompileExec3819147052.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3819147052.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3819147052.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3819147052
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3819147052.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3819147052.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3819147052 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4115584536/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4115584536.dir/build.make CMakeFiles/cmTryCompileExec4115584536.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4115584536.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4115584536.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4115584536
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4115584536.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4115584536.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4115584536 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec991356650/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec991356650.dir/build.make CMakeFiles/cmTryCompileExec991356650.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec991356650.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec991356650.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec991356650
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec991356650.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec991356650.dir/CheckIncludeFile.c.o  -o cmTryCompileExec991356650 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2575865458/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2575865458.dir/build.make CMakeFiles/cmTryCompileExec2575865458.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2575865458.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2575865458.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2575865458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2575865458.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2575865458.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2575865458 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1745678937/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1745678937.dir/build.make CMakeFiles/cmTryCompileExec1745678937.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1745678937.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1745678937.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1745678937
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1745678937.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1745678937.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1745678937 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec606681007/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec606681007.dir/build.make CMakeFiles/cmTryCompileExec606681007.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec606681007.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec606681007.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec606681007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec606681007.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec606681007.dir/CheckIncludeFile.c.o  -o cmTryCompileExec606681007 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3679782381/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3679782381.dir/build.make CMakeFiles/cmTryCompileExec3679782381.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3679782381.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3679782381.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3679782381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3679782381.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3679782381.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3679782381 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec619619999/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec619619999.dir/build.make CMakeFiles/cmTryCompileExec619619999.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec619619999.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec619619999.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec619619999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec619619999.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec619619999.dir/CheckIncludeFile.c.o  -o cmTryCompileExec619619999 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3229740201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3229740201.dir/build.make CMakeFiles/cmTryCompileExec3229740201.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3229740201.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3229740201.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3229740201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3229740201.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3229740201.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3229740201 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1376662367/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1376662367.dir/build.make CMakeFiles/cmTryCompileExec1376662367.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1376662367.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1376662367.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1376662367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1376662367.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1376662367.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1376662367 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3037974605/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3037974605.dir/build.make CMakeFiles/cmTryCompileExec3037974605.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3037974605.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3037974605.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3037974605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3037974605.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3037974605.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3037974605 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3761123979/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3761123979.dir/build.make CMakeFiles/cmTryCompileExec3761123979.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3761123979.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3761123979.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3761123979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3761123979.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3761123979.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3761123979 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2816131563/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2816131563.dir/build.make CMakeFiles/cmTryCompileExec2816131563.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2816131563.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2816131563.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2816131563
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2816131563.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2816131563.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2816131563 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec246888302/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec246888302.dir/build.make CMakeFiles/cmTryCompileExec246888302.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec246888302.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec246888302.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec246888302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec246888302.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec246888302.dir/CheckIncludeFile.c.o  -o cmTryCompileExec246888302 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3337808437/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3337808437.dir/build.make CMakeFiles/cmTryCompileExec3337808437.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3337808437.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3337808437.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3337808437
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3337808437.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3337808437.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3337808437 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1835774421/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1835774421.dir/build.make CMakeFiles/cmTryCompileExec1835774421.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1835774421.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1835774421.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1835774421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1835774421.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1835774421.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1835774421 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1329215065/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1329215065.dir/build.make CMakeFiles/cmTryCompileExec1329215065.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1329215065.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1329215065.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1329215065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1329215065.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1329215065.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1329215065 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2177730088/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2177730088.dir/build.make CMakeFiles/cmTryCompileExec2177730088.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2177730088.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2177730088.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2177730088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2177730088.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2177730088.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2177730088 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3984208539/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3984208539.dir/build.make CMakeFiles/cmTryCompileExec3984208539.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3984208539.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3984208539.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3984208539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3984208539.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3984208539.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3984208539 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4036916000/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4036916000.dir/build.make CMakeFiles/cmTryCompileExec4036916000.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4036916000.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4036916000.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4036916000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4036916000.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4036916000.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4036916000 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3059808956/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3059808956.dir/build.make CMakeFiles/cmTryCompileExec3059808956.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3059808956.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3059808956.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3059808956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3059808956.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3059808956.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3059808956 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2481107911/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2481107911.dir/build.make CMakeFiles/cmTryCompileExec2481107911.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2481107911.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2481107911.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2481107911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2481107911.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2481107911.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2481107911 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4080098978/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4080098978.dir/build.make CMakeFiles/cmTryCompileExec4080098978.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4080098978.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4080098978.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4080098978
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4080098978.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4080098978.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4080098978 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2851902159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2851902159.dir/build.make CMakeFiles/cmTryCompileExec2851902159.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2851902159.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2851902159.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2851902159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2851902159.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2851902159.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2851902159 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4275852781/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4275852781.dir/build.make CMakeFiles/cmTryCompileExec4275852781.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4275852781.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4275852781.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4275852781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4275852781.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4275852781.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4275852781 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file valgrind/valgrind.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3585792838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3585792838.dir/build.make CMakeFiles/cmTryCompileExec3585792838.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3585792838.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3585792838.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3585792838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3585792838.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3585792838.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3585792838 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1747320721/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1747320721.dir/build.make CMakeFiles/cmTryCompileExec1747320721.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1747320721.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1747320721.dir/CheckIncludeFile.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1747320721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1747320721.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1747320721.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1747320721 -rdynamic 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3960888043/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3960888043.dir/build.make CMakeFiles/cmTryCompileExec3960888043.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3960888043.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3960888043.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3960888043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3960888043.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3960888043.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3960888043 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3120263967/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3120263967.dir/build.make CMakeFiles/cmTryCompileExec3120263967.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3120263967.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTryCompileExec3120263967.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3120263967
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3120263967.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTryCompileExec3120263967.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3120263967 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1970903524/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1970903524.dir/build.make CMakeFiles/cmTryCompileExec1970903524.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1970903524.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTryCompileExec1970903524.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1970903524
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1970903524.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    CMakeFiles/cmTryCompileExec1970903524.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1970903524 -rdynamic -lpthread -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2542484014/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2542484014.dir/build.make CMakeFiles/cmTryCompileExec2542484014.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2542484014.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec2542484014.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2542484014
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2542484014.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec2542484014.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2542484014 -rdynamic -ldl -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4227221642/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4227221642.dir/build.make CMakeFiles/cmTryCompileExec4227221642.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4227221642.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4227221642.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4227221642
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4227221642.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4227221642.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4227221642 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4090346850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4090346850.dir/build.make CMakeFiles/cmTryCompileExec4090346850.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4090346850.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4090346850.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4090346850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4090346850.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4090346850.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4090346850 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3137656090/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3137656090.dir/build.make CMakeFiles/cmTryCompileExec3137656090.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3137656090.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3137656090.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3137656090
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3137656090.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3137656090.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3137656090 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function isatty exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2473522480/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2473522480.dir/build.make CMakeFiles/cmTryCompileExec2473522480.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2473522480.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=isatty   -o CMakeFiles/cmTryCompileExec2473522480.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2473522480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2473522480.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=isatty    CMakeFiles/cmTryCompileExec2473522480.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2473522480 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the index exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec459289653/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec459289653.dir/build.make CMakeFiles/cmTryCompileExec459289653.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec459289653.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec459289653.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec459289653
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec459289653.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec459289653.dir/CheckSymbolExists.c.o  -o cmTryCompileExec459289653 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2969131364/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2969131364.dir/build.make CMakeFiles/cmTryCompileExec2969131364.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2969131364.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2969131364.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2969131364
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969131364.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2969131364.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2969131364 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2505117638/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2505117638.dir/build.make CMakeFiles/cmTryCompileExec2505117638.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2505117638.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2505117638.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2505117638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2505117638.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2505117638.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2505117638 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceilf exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2335144047/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2335144047.dir/build.make CMakeFiles/cmTryCompileExec2335144047.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2335144047.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2335144047.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2335144047
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2335144047.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2335144047.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2335144047 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floorf exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3895847070/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3895847070.dir/build.make CMakeFiles/cmTryCompileExec3895847070.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3895847070.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3895847070.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3895847070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3895847070.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3895847070.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3895847070 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmodf exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec173958799/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec173958799.dir/build.make CMakeFiles/cmTryCompileExec173958799.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec173958799.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec173958799.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec173958799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec173958799.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec173958799.dir/CheckSymbolExists.c.o  -o cmTryCompileExec173958799 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the longjmp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3555710829/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3555710829.dir/build.make CMakeFiles/cmTryCompileExec3555710829.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3555710829.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3555710829.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3555710829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3555710829.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3555710829.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3555710829 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef longjmp
+  return ((int*)(&longjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setjmp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1622596373/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1622596373.dir/build.make CMakeFiles/cmTryCompileExec1622596373.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1622596373.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1622596373.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1622596373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1622596373.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1622596373.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1622596373 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the siglongjmp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec497031160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec497031160.dir/build.make CMakeFiles/cmTryCompileExec497031160.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec497031160.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec497031160.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec497031160
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec497031160.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec497031160.dir/CheckSymbolExists.c.o  -o cmTryCompileExec497031160 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siglongjmp
+  return ((int*)(&siglongjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigsetjmp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4099116692/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4099116692.dir/build.make CMakeFiles/cmTryCompileExec4099116692.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4099116692.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4099116692.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4099116692
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4099116692.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4099116692.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4099116692 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigsetjmp
+  return ((int*)(&sigsetjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2909874470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2909874470.dir/build.make CMakeFiles/cmTryCompileExec2909874470.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2909874470.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2909874470.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2909874470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2909874470.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2909874470.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2909874470 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nearbyintf exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3917920691/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3917920691.dir/build.make CMakeFiles/cmTryCompileExec3917920691.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3917920691.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3917920691.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3917920691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3917920691.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3917920691.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3917920691 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nearbyintf
+  return ((int*)(&nearbyintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2969559941/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2969559941.dir/build.make CMakeFiles/cmTryCompileExec2969559941.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2969559941.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2969559941.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2969559941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2969559941.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2969559941.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2969559941 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3999903919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3999903919.dir/build.make CMakeFiles/cmTryCompileExec3999903919.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3999903919.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3999903919.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3999903919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3999903919.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3999903919.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3999903919 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1961122735/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1961122735.dir/build.make CMakeFiles/cmTryCompileExec1961122735.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1961122735.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1961122735.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1961122735
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1961122735.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1961122735.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1961122735 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2511614115/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2511614115.dir/build.make CMakeFiles/cmTryCompileExec2511614115.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2511614115.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2511614115.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2511614115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2511614115.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2511614115.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2511614115 -rdynamic -lm 
+/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closedir exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4037420611/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4037420611.dir/build.make CMakeFiles/cmTryCompileExec4037420611.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4037420611.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4037420611.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4037420611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4037420611.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4037420611.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4037420611 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the opendir exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec353658509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec353658509.dir/build.make CMakeFiles/cmTryCompileExec353658509.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec353658509.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec353658509.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec353658509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec353658509.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec353658509.dir/CheckSymbolExists.c.o  -o cmTryCompileExec353658509 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the readdir exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2744288532/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2744288532.dir/build.make CMakeFiles/cmTryCompileExec2744288532.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2744288532.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2744288532.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2744288532
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2744288532.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2744288532.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2744288532 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3510068796/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3510068796.dir/build.make CMakeFiles/cmTryCompileExec3510068796.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3510068796.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3510068796.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3510068796
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3510068796.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3510068796.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3510068796 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec957793780/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec957793780.dir/build.make CMakeFiles/cmTryCompileExec957793780.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec957793780.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec957793780.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec957793780
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec957793780.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec957793780.dir/CheckSymbolExists.c.o  -o cmTryCompileExec957793780 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2636601919/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2636601919.dir/build.make CMakeFiles/cmTryCompileExec2636601919.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2636601919.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2636601919.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2636601919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2636601919.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2636601919.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2636601919 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rindex exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1183833332/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1183833332.dir/build.make CMakeFiles/cmTryCompileExec1183833332.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1183833332.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1183833332.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1183833332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1183833332.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1183833332.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1183833332 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strchr exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3145236741/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3145236741.dir/build.make CMakeFiles/cmTryCompileExec3145236741.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3145236741.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3145236741.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3145236741
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3145236741.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3145236741.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3145236741 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmp exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2612730350/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2612730350.dir/build.make CMakeFiles/cmTryCompileExec2612730350.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2612730350.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2612730350.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2612730350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2612730350.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2612730350.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2612730350 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2101553109/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2101553109.dir/build.make CMakeFiles/cmTryCompileExec2101553109.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2101553109.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2101553109.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2101553109
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2101553109.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2101553109.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2101553109 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strrchr exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3696443982/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3696443982.dir/build.make CMakeFiles/cmTryCompileExec3696443982.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3696443982.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3696443982.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3696443982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3696443982.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3696443982.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3696443982 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_mutex_lock exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1756668529/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1756668529.dir/build.make CMakeFiles/cmTryCompileExec1756668529.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1756668529.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1756668529.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1756668529
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1756668529.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1756668529.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1756668529 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_mutex_lock
+  return ((int*)(&pthread_mutex_lock))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1534075855/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1534075855.dir/build.make CMakeFiles/cmTryCompileExec1534075855.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1534075855.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec1534075855.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1534075855
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1534075855.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec1534075855.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1534075855 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2203628879/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2203628879.dir/build.make CMakeFiles/cmTryCompileExec2203628879.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2203628879.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2203628879.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2203628879
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2203628879.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2203628879.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2203628879 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec913170090/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec913170090.dir/build.make CMakeFiles/cmTryCompileExec913170090.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec913170090.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec913170090.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec913170090
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec913170090.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec913170090.dir/CheckSymbolExists.c.o  -o cmTryCompileExec913170090 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the drand48 exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2336955600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2336955600.dir/build.make CMakeFiles/cmTryCompileExec2336955600.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2336955600.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2336955600.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2336955600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2336955600.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2336955600.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2336955600 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3484051458/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3484051458.dir/build.make CMakeFiles/cmTryCompileExec3484051458.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3484051458.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3484051458.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3484051458
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3484051458.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3484051458.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3484051458 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoq exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4247173647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4247173647.dir/build.make CMakeFiles/cmTryCompileExec4247173647.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4247173647.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4247173647.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4247173647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4247173647.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4247173647.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4247173647 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2780921973/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2780921973.dir/build.make CMakeFiles/cmTryCompileExec2780921973.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2780921973.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2780921973.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2780921973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2780921973.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2780921973.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2780921973 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4291608997/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4291608997.dir/build.make CMakeFiles/cmTryCompileExec4291608997.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4291608997.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec4291608997.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4291608997
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4291608997.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec4291608997.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4291608997 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcpy exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec681975206/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec681975206.dir/build.make CMakeFiles/cmTryCompileExec681975206.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec681975206.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec681975206.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec681975206
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec681975206.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec681975206.dir/CheckSymbolExists.c.o  -o cmTryCompileExec681975206 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memmove exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec454065694/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec454065694.dir/build.make CMakeFiles/cmTryCompileExec454065694.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec454065694.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec454065694.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec454065694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec454065694.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec454065694.dir/CheckSymbolExists.c.o  -o cmTryCompileExec454065694 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec353498385/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec353498385.dir/build.make CMakeFiles/cmTryCompileExec353498385.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec353498385.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec353498385.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec353498385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec353498385.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec353498385.dir/CheckSymbolExists.c.o  -o cmTryCompileExec353498385 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the argz_append exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2193526062/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2193526062.dir/build.make CMakeFiles/cmTryCompileExec2193526062.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2193526062.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2193526062.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2193526062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2193526062.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2193526062.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2193526062 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <argz.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef argz_append
+  return ((int*)(&argz_append))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the argz_create_sep exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2675814359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2675814359.dir/build.make CMakeFiles/cmTryCompileExec2675814359.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2675814359.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2675814359.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2675814359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2675814359.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2675814359.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2675814359 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <argz.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef argz_create_sep
+  return ((int*)(&argz_create_sep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the argz_insert exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2914269583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2914269583.dir/build.make CMakeFiles/cmTryCompileExec2914269583.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2914269583.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2914269583.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2914269583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2914269583.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2914269583.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2914269583 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <argz.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef argz_insert
+  return ((int*)(&argz_insert))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the argz_next exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2791754576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2791754576.dir/build.make CMakeFiles/cmTryCompileExec2791754576.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2791754576.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2791754576.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2791754576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2791754576.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2791754576.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2791754576 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <argz.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef argz_next
+  return ((int*)(&argz_next))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the argz_stringify exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec685490130/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec685490130.dir/build.make CMakeFiles/cmTryCompileExec685490130.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec685490130.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec685490130.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec685490130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec685490130.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec685490130.dir/CheckSymbolExists.c.o  -o cmTryCompileExec685490130 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <argz.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef argz_stringify
+  return ((int*)(&argz_stringify))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlerror exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2138220930/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2138220930.dir/build.make CMakeFiles/cmTryCompileExec2138220930.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2138220930.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec2138220930.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2138220930
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2138220930.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec2138220930.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2138220930 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlerror
+  return ((int*)(&dlerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3894620949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3894620949.dir/build.make CMakeFiles/cmTryCompileExec3894620949.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3894620949.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -g    -o CMakeFiles/cmTryCompileExec3894620949.dir/CheckSymbolExists.c.o   -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3894620949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3894620949.dir/link.txt --verbose=1
+/usr/bin/cc   -g     CMakeFiles/cmTryCompileExec3894620949.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3894620949 -rdynamic -lm -ldl 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+File /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1515961755/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1515961755.dir/build.make CMakeFiles/cmTryCompileExec1515961755.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1515961755.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_INT64_T   -o CMakeFiles/cmTryCompileExec1515961755.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1515961755
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1515961755.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_INT64_T    CMakeFiles/cmTryCompileExec1515961755.dir/src.cxx.o  -o cmTryCompileExec1515961755 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4066896423/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4066896423.dir/build.make CMakeFiles/cmTryCompileExec4066896423.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4066896423.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_UINT64_T   -o CMakeFiles/cmTryCompileExec4066896423.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4066896423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4066896423.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_UINT64_T    CMakeFiles/cmTryCompileExec4066896423.dir/src.cxx.o  -o cmTryCompileExec4066896423 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2020850933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2020850933.dir/build.make CMakeFiles/cmTryCompileExec2020850933.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2020850933.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_U_INT64_T   -o CMakeFiles/cmTryCompileExec2020850933.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2020850933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2020850933.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_U_INT64_T    CMakeFiles/cmTryCompileExec2020850933.dir/src.cxx.o  -o cmTryCompileExec2020850933 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_ERROR_T succeded with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3678268207/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3678268207.dir/build.make CMakeFiles/cmTryCompileExec3678268207.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3678268207.dir/src.cxx.o
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_ERROR_T   -o CMakeFiles/cmTryCompileExec3678268207.dir/src.cxx.o -c /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3678268207
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3678268207.dir/link.txt --verbose=1
+/usr/bin/c++    -g -march=native -std=c++11 -DHAVE_ERROR_T    CMakeFiles/cmTryCompileExec3678268207.dir/src.cxx.o  -o cmTryCompileExec3678268207 -rdynamic -lm 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include<errno.h>
+ error_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2205043370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2205043370.dir/build.make CMakeFiles/cmTryCompileExec2205043370.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2205043370.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTryCompileExec2205043370.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2205043370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2205043370.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTryCompileExec2205043370.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2205043370 -rdynamic /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3026385241/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3026385241.dir/build.make CMakeFiles/cmTryCompileExec3026385241.dir/build
+make[1]: Entering directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3026385241.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTryCompileExec3026385241.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3026385241
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3026385241.dir/link.txt --verbose=1
+/usr/bin/cc   -g -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTryCompileExec3026385241.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3026385241 -rdynamic /usr/lib/liblapack.so.3gf /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory `/home/zhangmx/Wonderland/lib/Galois-2.2.1/build/CMakeFiles/CMakeTmp'
+
+
