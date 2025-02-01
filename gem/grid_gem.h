@@ -1,5 +1,5 @@
-#ifndef gem_GRID_gem
-#define gem_GRID_gem
+#ifndef GEM_GRID_GEM
+#define GEM_GRID_GEM
 
 #include "common.h"
 #include "bit_map.h"

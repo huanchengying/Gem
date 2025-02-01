@@ -1,5 +1,5 @@
-#ifndef gem_ALL
-#define gem_ALL
+#ifndef GEM_ALL
+#define GEM_ALL
 
 #include "common.h"
 #include "barrier.h"

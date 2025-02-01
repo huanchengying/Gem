@@ -1,5 +1,5 @@
-#ifndef gem_BARRIER
-#define gem_BARRIER
+#ifndef GEM_BARRIER
+#define GEM_BARRIER
 
 #include <thread>
 #include <iostream>

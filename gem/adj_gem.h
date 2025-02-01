@@ -1,5 +1,5 @@
-#ifndef gem_ADJ_gem
-#define gem_ADJ_gem
+#ifndef GEM_ADJ_GEM
+#define GEM_ADJ_GEM
 
 #include "common.h"
 #include "bit_map.h"

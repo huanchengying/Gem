@@ -1,5 +1,5 @@
-#ifndef gem_REACHBILITY_gem
-#define gem_REACHBILITY_gem
+#ifndef GEM_REACHBILITY_GEM
+#define GEM_REACHBILITY_GEM
 
 #include "common.h"
 #include "bit_map.h"

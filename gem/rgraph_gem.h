@@ -1,5 +1,5 @@
-#ifndef gem_RGRAPH_gem
-#define gem_RGRAPH_gem
+#ifndef GEM_RGRAPH_GEM
+#define GEM_RGRAPH_GEM
 
 #include "common.h"
 #include "bit_map.h"

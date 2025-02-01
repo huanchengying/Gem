@@ -1,5 +1,5 @@
-#ifndef gem_MCST_gem
-#define gem_MCST_gem
+#ifndef GEM_MCST_GEM
+#define GEM_MCST_GEM
 
 #include "common.h"
 #include "bit_map.h"

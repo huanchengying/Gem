@@ -1,5 +1,5 @@
-#ifndef gem_COMMON
-#define gem_COMMON
+#ifndef GEM_COMMON
+#define GEM_COMMON
 
 #include <limits.h>
 #include <algorithm>

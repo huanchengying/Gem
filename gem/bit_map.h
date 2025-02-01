@@ -1,5 +1,5 @@
-#ifndef gem_BITMAP
-#define gem_BITMAP
+#ifndef GEM_BITMAP
+#define GEM_BITMAP
 
 #define BITSHRINK(i) (i >> 6)
 #define BITOFFSET(i) (i & 0x3f)
