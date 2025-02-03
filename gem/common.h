@@ -13,7 +13,7 @@ typedef int IndexType;
 static IndexType INDEX_BOTTOM_BOUND = -1;
 static IndexType INDEX_UPPER_BOUND = INT_MAX;
 
-struct __attribute__((packed)) EmptyProperty { int dummy[]; };
+struct __attribute__((packed)) EmptyProperty { int *dummy; };
 
 template<typename EdgeType>
 struct __attribute__((packed)) DirectEdge {

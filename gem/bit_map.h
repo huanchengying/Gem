@@ -84,6 +84,14 @@ struct BitMap{
     }
     return false;
   }
+  int get_num(){
+    int num=0;
+    for (int i=0; i<=this->_size; i++) {
+        if(get_bit(i)) num++;
+    }
+    return num;
+  }
+
 
   bool get_bit(int i) {
     return bool(this->_data[BITSHRINK(i)] & (1ul << BITOFFSET(i)));
